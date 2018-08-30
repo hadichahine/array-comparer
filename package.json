@@ -1,0 +1,22 @@
+{
+  "name": "array-comparer",
+  "version": "1.0.0",
+  "description": "Compare two arrays based on some function.",
+  "main": "arraycomparer.js",
+  "scripts": {
+    "test": "node_modules/.bin/qunit arrayequalitytest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hadichahine/array-comparer.git"
+  },
+  "author": "Hadi Chahine",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hadichahine/array-comparer/issues"
+  },
+  "homepage": "https://github.com/hadichahine/array-comparer#readme",
+  "devDependencies": {
+    "qunit": "^2.6.2"
+  }
+}
