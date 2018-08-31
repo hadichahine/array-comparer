@@ -5,7 +5,7 @@ Here's a number array comparer :
 ```
 const areArraysEqual = require("array-comparer");
 
-function numberComparer = (elementInFirstArray,symmetricElementInSecondArray) => {
+function numberComparer(elementInFirstArray,symmetricElementInSecondArray){
   return elementInFirstArray === symmetricElementInSecondArray;
 }  //Comparing function
 
